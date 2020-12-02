@@ -1,13 +1,22 @@
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
   body {
     color: fffbf7;
+    font-family: "Alegreya";
   }
   h1 {
+    text-align: center;
     color: #025157;
+    font-family: "Arial";
   }
   h4 {
+    text-align: center;
     color: #a5a6aa;
   }
-  button {
+    button{
     background-color: #025157;
     height: 35px;
     color: #fff;
@@ -25,4 +34,47 @@
   form {
     text-align: center;
   }
+  p {
+    text-align: center;
+  }
+.header > * {
+  margin: 40px 20px 0px 20px;
+  font-size: 9;
+}
 
+.header nav li {
+  display: inline;
+}
+.menu-item {
+  display: inline;
+}
+
+.logo {
+width: 20%;
+}
+
+.navbar {
+width: 60%;
+color: #025157;
+}
+
+.actions {
+width: 60%;
+font-size: 14px;
+}
+
+.actions > *{
+  margin: 0 10px;
+}
+
+.actions > a{
+  color: #67b54b;
+}
+
+.actions > button {
+  color: #ffffff;
+  background color: #67b567;
+  padding 12px 14px;
+  border-radius: 5px;
+}
+/* comentarios */
